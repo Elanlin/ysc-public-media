@@ -12,19 +12,19 @@
 影视仓多仓地址：
 
 ```text
-https://raw.githubusercontent.com/Elanlin/ysc-public-media/main/warehouse.json
+https://cdn.jsdelivr.net/gh/Elanlin/ysc-public-media@main/warehouse.json
 ```
 
 如果客户端要求填写“配置地址”而不是“多仓地址”，使用：
 
 ```text
-https://raw.githubusercontent.com/Elanlin/ysc-public-media/main/config.json
+https://cdn.jsdelivr.net/gh/Elanlin/ysc-public-media@main/config.json
 ```
 
-部分网络访问 `raw.githubusercontent.com` 较慢时，可以尝试 jsDelivr 镜像：
+如果所在网络可以直接访问 GitHub Raw，也可以使用备用地址：
 
 ```text
-https://cdn.jsdelivr.net/gh/Elanlin/ysc-public-media@main/warehouse.json
+https://raw.githubusercontent.com/Elanlin/ysc-public-media/main/warehouse.json
 ```
 
 > 不同影视仓版本的菜单名称可能是“多仓管理”“配置管理”或“线路管理”。首次导入后如果目录为空，请先在 GitHub 的 Actions 页面手动运行一次 `Update open media catalog`。
