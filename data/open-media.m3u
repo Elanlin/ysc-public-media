@@ -1,0 +1,37 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="nasa:GSFC_20140421_EarthOrbit_m11525" tvg-name="Earth from Orbit 2013" tvg-logo="https://images-assets.nasa.gov/video/GSFC_20140421_EarthOrbit_m11525/GSFC_20140421_EarthOrbit_m11525~thumb.jpg" group-title="NASA 官方影像",Earth from Orbit 2013 · NASA Image and Video Library
+https://images-assets.nasa.gov/video/GSFC_20140421_EarthOrbit_m11525/GSFC_20140421_EarthOrbit_m11525~medium.mp4
+#EXTINF:-1 tvg-id="nasa:GSFC_20150420_Orbit_m11858_2014" tvg-name="Earth from Orbit 2014" tvg-logo="https://images-assets.nasa.gov/video/GSFC_20150420_Orbit_m11858_2014/GSFC_20150420_Orbit_m11858_2014~thumb.jpg" group-title="NASA 官方影像",Earth from Orbit 2014 · NASA Image and Video Library
+https://images-assets.nasa.gov/video/GSFC_20150420_Orbit_m11858_2014/GSFC_20150420_Orbit_m11858_2014~medium.mp4
+#EXTINF:-1 tvg-id="nasa:GSFC_20190419_Earth_m13188_Orbit" tvg-name="Earth from Orbit 2019: How NASA Satellites #PictureEarth" tvg-logo="https://images-assets.nasa.gov/video/GSFC_20190419_Earth_m13188_Orbit/GSFC_20190419_Earth_m13188_Orbit~thumb.jpg" group-title="NASA 官方影像",Earth from Orbit 2019: How NASA Satellites #PictureEarth · NASA Image and Video Library
+https://images-assets.nasa.gov/video/GSFC_20190419_Earth_m13188_Orbit/GSFC_20190419_Earth_m13188_Orbit~medium.mp4
+#EXTINF:-1 tvg-id="nasa:art002m1200962241_Goodnight-Earth" tvg-name="Goodnight Earth" tvg-logo="https://images-assets.nasa.gov/video/art002m1200962241_Goodnight-Earth/art002m1200962241_Goodnight-Earth~thumb.jpg" group-title="NASA 官方影像",Goodnight Earth · NASA Image and Video Library
+https://images-assets.nasa.gov/video/art002m1200962241_Goodnight-Earth/art002m1200962241_Goodnight-Earth~medium.mp4
+#EXTINF:-1 tvg-id="nasa:JPL-20210222-M2020f-0003b-M2020_Audio_B_002" tvg-name="NASA’s Perseverance Rover Microphone Captures Sounds from Mars - B" tvg-logo="https://images-assets.nasa.gov/video/JPL-20210222-M2020f-0003b-M2020_Audio_B_002/JPL-20210222-M2020f-0003b-M2020_Audio_B_002~thumb.jpg" group-title="NASA 官方影像",NASA’s Perseverance Rover Microphone Captures Sounds from Mars - B · NASA Image and Video Library
+https://images-assets.nasa.gov/video/JPL-20210222-M2020f-0003b-M2020_Audio_B_002/JPL-20210222-M2020f-0003b-M2020_Audio_B_002~medium.mp4
+#EXTINF:-1 tvg-id="nasa:Space-247365" tvg-name="Space 24/7/365: Space Station Benefits" tvg-logo="https://images-assets.nasa.gov/video/Space-247365/Space-247365~thumb.jpg" group-title="NASA 官方影像",Space 24/7/365: Space Station Benefits · NASA Image and Video Library
+https://images-assets.nasa.gov/video/Space-247365/Space-247365~medium.mp4
+#EXTINF:-1 tvg-id="ia:AboutBan1935" tvg-name="About Bananas" tvg-logo="https://archive.org/download/AboutBan1935/__ia_thumb.jpg" group-title="公版历史影像",About Bananas · Internet Archive / Prelinger
+https://archive.org/download/AboutBan1935/AboutBan1935_512kb.mp4
+#EXTINF:-1 tvg-id="ia:Automoti1940" tvg-name="Automotive Service" tvg-logo="https://archive.org/download/Automoti1940/__ia_thumb.jpg" group-title="公版历史影像",Automotive Service · Internet Archive / Prelinger
+https://archive.org/download/Automoti1940/Automoti1940_512kb.mp4
+#EXTINF:-1 tvg-id="ia:babies_and_breadwinners_2" tvg-name="Babies and Breadwinners (Part II)" tvg-logo="https://archive.org/download/babies_and_breadwinners_2/__ia_thumb.jpg" group-title="公版历史影像",Babies and Breadwinners (Part II) · Internet Archive / Prelinger
+https://archive.org/download/babies_and_breadwinners_2/babies_and_breadwinners_2_512kb.mp4
+#EXTINF:-1 tvg-id="ia:Careofth1949" tvg-name="Care of the Skin" tvg-logo="https://archive.org/download/Careofth1949/__ia_thumb.jpg" group-title="公版历史影像",Care of the Skin · Internet Archive / Prelinger
+https://archive.org/download/Careofth1949/Careofth1949_512kb.mp4
+#EXTINF:-1 tvg-id="ia:Doctorin1946" tvg-name="Doctor in Industry (Part I)" tvg-logo="https://archive.org/download/Doctorin1946/__ia_thumb.jpg" group-title="公版历史影像",Doctor in Industry (Part I) · Internet Archive / Prelinger
+https://archive.org/download/Doctorin1946/Doctorin1946_512kb.mp4
+#EXTINF:-1 tvg-id="ia:EatforHe1954" tvg-name="Eat for Health" tvg-logo="https://archive.org/download/EatforHe1954/__ia_thumb.jpg" group-title="公版历史影像",Eat for Health · Internet Archive / Prelinger
+https://archive.org/download/EatforHe1954/EatforHe1954_512kb.mp4
+#EXTINF:-1 tvg-id="ia:FromtheG1954" tvg-name="From the Ground Up" tvg-logo="https://archive.org/download/FromtheG1954/__ia_thumb.jpg" group-title="公版历史影像",From the Ground Up · Internet Archive / Prelinger
+https://archive.org/download/FromtheG1954/FromtheG1954_512kb.mp4
+#EXTINF:-1 tvg-id="ia:HealthYo1953" tvg-name="Health: Your Posture" tvg-logo="https://archive.org/download/HealthYo1953/__ia_thumb.jpg" group-title="公版历史影像",Health: Your Posture · Internet Archive / Prelinger
+https://archive.org/download/HealthYo1953/HealthYo1953_512kb.mp4
+#EXTINF:-1 tvg-id="ia:JoanAvoi1947" tvg-name="Joan Avoids a Cold" tvg-logo="https://archive.org/download/JoanAvoi1947/__ia_thumb.jpg" group-title="公版历史影像",Joan Avoids a Cold · Internet Archive / Prelinger
+https://archive.org/download/JoanAvoi1947/JoanAvoi1947_512kb.mp4
+#EXTINF:-1 tvg-id="ia:right_to_health_1" tvg-name="Right to Health, A (Part I)" tvg-logo="https://archive.org/download/right_to_health_1/__ia_thumb.jpg" group-title="公版历史影像",Right to Health, A (Part I) · Internet Archive / Prelinger
+https://archive.org/download/right_to_health_1/right_to_health_1_512kb.mp4
+#EXTINF:-1 tvg-id="ia:Sleepfor1950" tvg-name="Sleep for Health" tvg-logo="https://archive.org/download/Sleepfor1950/__ia_thumb.jpg" group-title="公版历史影像",Sleep for Health · Internet Archive / Prelinger
+https://archive.org/download/Sleepfor1950/Sleepfor1950_512kb.mp4
+#EXTINF:-1 tvg-id="ia:Sniffles1955" tvg-name="Sniffles and Sneezes" tvg-logo="https://archive.org/download/Sniffles1955/__ia_thumb.jpg" group-title="公版历史影像",Sniffles and Sneezes · Internet Archive / Prelinger
+https://archive.org/download/Sniffles1955/Sniffles1955_512kb.mp4

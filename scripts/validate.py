@@ -69,10 +69,21 @@ def validate_config() -> None:
     require_https(warehouse["urls"][0]["url"], "warehouse.urls[0].url")
 
 
+def validate_playlist() -> None:
+    lines = (ROOT / "data" / "open-media.m3u").read_text(encoding="utf-8").splitlines()
+    if not lines or lines[0] != "#EXTM3U":
+        raise ValueError("playlist must start with #EXTM3U")
+    entries = [line for line in lines if line.startswith("#EXTINF:")]
+    urls = [line for line in lines if line.startswith("https://")]
+    if len(entries) < 4 or len(entries) != len(urls):
+        raise ValueError("playlist entries and URLs must match")
+
+
 def main() -> None:
     validate_catalog()
     validate_config()
-    print("catalog and configuration are valid")
+    validate_playlist()
+    print("catalog, playlist, and configuration are valid")
 
 
 if __name__ == "__main__":

@@ -7,6 +7,16 @@
 - [Internet Archive / Prelinger Archives](https://archive.org/details/prelinger)：只收录明确标注 Public Domain 或允许再分发的 Creative Commons 项目。
 - [NASA Image and Video Library](https://images.nasa.gov/)：只读取 NASA 官方 API，并链接到 NASA 官方媒体文件。
 
+## 兼容模式（推荐先测试）
+
+如果客户端提示“输入地址错误”，通常表示该版本不支持远程 JS Spider。请在客户端的“直播地址”中添加标准 M3U：
+
+```text
+https://cdn.jsdelivr.net/gh/Elanlin/ysc-public-media@main/data/open-media.m3u
+```
+
+该入口会在直播分类中显示同一批开放媒体，不需要 Spider 或额外服务器。
+
 ## 导入地址
 
 影视仓多仓地址：
@@ -66,6 +76,7 @@ warehouse.json                        影视仓多仓入口
 data/catalog.json                     自动生成的开放媒体目录
 spider/public_media.js                影视仓 / TVBox JS Spider
 scripts/build_catalog.py              上游聚合脚本
+scripts/build_playlist.py             M3U 兼容列表生成器
 scripts/validate.py                   目录与配置校验
 .github/workflows/update-catalog.yml  每日自动更新
 ```
