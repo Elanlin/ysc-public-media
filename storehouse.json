@@ -1,0 +1,8 @@
+{
+  "storeHouse": [
+    {
+      "sourceName": "开放影视仓",
+      "sourceUrl": "https://raw.githubusercontent.com/Elanlin/ysc-public-media/main/warehouse.json"
+    }
+  ]
+}

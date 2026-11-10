@@ -1,0 +1,19 @@
+{
+  "home": "public_media",
+  "sites": [
+    {
+      "key": "public_media",
+      "name": "开放影视（合法来源）",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/Elanlin/ysc-public-media/main/spider/public_media.js",
+      "ext": "https://raw.githubusercontent.com/Elanlin/ysc-public-media/main/data/catalog.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "style": { "type": "rect", "ratio": 1.78 }
+    }
+  ],
+  "parses": [],
+  "rules": []
+}

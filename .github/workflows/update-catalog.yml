@@ -1,0 +1,51 @@
+name: Update open media catalog
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update-catalog.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-open-media-catalog
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build catalog
+        run: python scripts/build_catalog.py
+
+      - name: Validate catalog and tests
+        run: |
+          python scripts/validate.py
+          python -m unittest discover -s tests
+
+      - name: Commit updated catalog
+        run: |
+          if git diff --quiet -- data/catalog.json; then
+            echo "Catalog is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog.json
+          git commit -m "chore: update open media catalog"
+          git push
